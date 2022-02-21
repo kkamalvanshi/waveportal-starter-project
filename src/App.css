@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  background-color: #1a1c20;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  
+  
+
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.resourceButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+
+
+  
+  
+  
+  
+}
+
+.inputContainer {
+  display: flex;
+  color: gray;
+  justify-content: center;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.backgroundColor {
+  background-color: black;
+}
+
+.resourceCountText {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  
+}
+
+.app__input {
+  width: 575px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: 2px solid gray;
+  
+  
+}
+
+
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #1a1c20;
+  }
+  33% {
+    background: #7262b8;
+  }
+  66% {
+    background: #d64990;
+  }
+  
+}
+
+//25% {
+//    background: #5fa6c7;
+//  }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
